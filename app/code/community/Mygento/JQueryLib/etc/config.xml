@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Sea-Lab Ltd
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade to newer
+ * versions in the future.
+ *
+ * @category   Mygento
+ * @package    Mygento_JQueryLib
+ * @copyright  Copyright © 2012 Sea-Lab Ltd (http://www.mygento.ru)
+ * @contacts   connect@mygento.ru
+ * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */ 
+-->
+<config>
+    <modules>
+        <Mygento_JQueryLib>
+            <version>1.8.3.0</version>
+        </Mygento_JQueryLib>
+    </modules>
+    <default>
+        <jquerylib>
+            <general>
+                <enabled>1</enabled>
+                <next>0</next>
+                <debug>0</debug>
+            </general>
+            <plugins>
+            	<easing>0</easing>
+            	<carousel>0</carousel>
+            	<galleria>0</galleria>
+            	<nivo>0</nivo>
+            	<slides>0</slides>
+            	<fancy>0</fancy>
+            	<loupe>0</loupe>
+            	<ui>0</ui>
+            	<skitter>0</skitter>
+            	<tiptip>0</tiptip>
+				<mobile>0</mobile>
+				<chosen>0</chosen>
+				<hovercard>0</hovercard>
+				<masked>0</masked>
+				<ddslick>0</ddslick>
+				<modernizr>0</modernizr>
+        	</plugins>
+        </jquerylib>
+    </default>
+    <global>       
+        <helpers>
+            <jquerylib>
+                <class>Mygento_JQueryLib_Helper</class>
+            </jquerylib>
+        </helpers>
+    </global>
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <jquerylib>
+                                            <title>JQuery Library</title>
+                                        </jquerylib>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <translate>
+            <modules>
+                <jquerylib>
+                    <files>
+                        <default>Mygento_JQueryLib.csv</default>
+                    </files>
+                </jquerylib>
+            </modules>
+        </translate>
+    </adminhtml>
+    <frontend>
+        <layout>
+            <updates>
+                <jquerylib>
+                    <file>mygento/jquerylib.xml</file>
+                </jquerylib>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <jquerylib>
+                    <files>
+                        <default>Mygento_JQueryLib.csv</default>
+                    </files>
+                </jquerylib>
+            </modules>
+        </translate>
+    </frontend>
+</config>

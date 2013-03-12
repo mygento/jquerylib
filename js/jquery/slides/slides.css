@@ -1,0 +1,30 @@
+.slides_container {
+	width:470px;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+.slides_container div {
+	width:470px;
+	height:170px;
+	display:block;
+}
+
+/*
+	Optional:
+	Reset list default style
+*/
+.pagination {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.pagination .current a {
+	color:red;
+}
