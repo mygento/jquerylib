@@ -131,7 +131,7 @@
 			    <show_in_default>1</show_in_default>
 			    <show_in_website>1</show_in_website>
 			    <show_in_store>1</show_in_store>
-			    <comment><![CDATA[ver. 0.3.0 <a href="http://sorgalla.com/projects/jcarousel/" target="_blank">Click here for example!</a>]]></comment>
+			    <comment><![CDATA[ver. 0.2.9 <a href="http://sorgalla.com/projects/jcarousel/" target="_blank">Click here for example!</a>]]></comment>
 			</carousel>
 			<galleria translate="label">
 			    <label>Galleria</label>
@@ -171,7 +171,7 @@
 			    <show_in_default>1</show_in_default>
 			    <show_in_website>1</show_in_website>
 			    <show_in_store>1</show_in_store>
-			    <comment><![CDATA[ver. 0.9.15 <a href="http://harvesthq.github.com/chosen/" target="_blank">Click here for example!</a>]]></comment>
+			    <comment><![CDATA[ver. 0.10.0 <a href="http://harvesthq.github.com/chosen/" target="_blank">Click here for example!</a>]]></comment>
 			</chosen>
 			<fancy translate="label">
 			    <label>Fancybox</label>
@@ -181,7 +181,7 @@
 			    <show_in_default>1</show_in_default>
 			    <show_in_website>1</show_in_website>
 			    <show_in_store>1</show_in_store>
-			    <comment><![CDATA[ver. 2.1.4 <a href="http://fancyapps.com/fancybox/" target="_blank">Click here for example!</a>]]></comment>                            
+			    <comment><![CDATA[ver. 2.1.5 <a href="http://fancyapps.com/fancybox/" target="_blank">Click here for example!</a>]]></comment>                            
 			</fancy>
 			<skitter translate="label">
 			    <label>Skitter</label>
@@ -231,7 +231,7 @@
 			    <show_in_default>1</show_in_default>
 			    <show_in_website>1</show_in_website>
 			    <show_in_store>1</show_in_store>
-			    <comment><![CDATA[ver. 2.0.3 <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank">Click here for example!</a>]]></comment>
+			    <comment><![CDATA[ver. 2.0.4 <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank">Click here for example!</a>]]></comment>
 			</backstretch>
 			<modernizr translate="label">
 			    <label>Modernizr</label>
