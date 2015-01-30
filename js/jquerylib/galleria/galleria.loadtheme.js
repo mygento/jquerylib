@@ -1,1 +1,1 @@
-Galleria.loadTheme('js/jquery/galleria/themes/classic/galleria.classic.min.js');
+Galleria.loadTheme('js/jquerylib/galleria/themes/classic/galleria.classic.min.js');
