@@ -7,7 +7,7 @@ Mygento JQueryLib
 <p>This extension adds to reference &quot;head&quot; Jquery Library and plugins</p>
 <p>You don't need to include it yourself and update every time</p>
 
-<h2>Current version - 1.11.2</h2>
+<h2>Current version - 1.11.3</h2>
 <p>Additional Libraries</p>
 <ul>
 <li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">Jquery Easing plugin</a></li>
