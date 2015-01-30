@@ -1,3 +1,5 @@
-*.DS_Store
 .DS_Store
-DS_Store
+/vendor
+/composer.phar
+magento.py
+/var/connect

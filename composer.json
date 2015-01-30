@@ -1,0 +1,10 @@
+{
+    "name": "mygento/jquerylib",
+    "type": "magento-module",
+    "license": "AFL v3.0",
+    "homepage": "https://github.com/mygento/jquerylib",
+    "description": "Jquery Integration",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

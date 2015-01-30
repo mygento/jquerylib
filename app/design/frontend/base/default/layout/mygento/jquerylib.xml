@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Sea-Lab Ltd
  *
  * NOTICE OF LICENSE
  *
@@ -14,7 +13,7 @@
  *
  * @category   Mygento
  * @package    Mygento_JQueryLib
- * @copyright  Copyright © 2013 Sea-Lab Ltd (http://www.mygento.ru)
+ * @copyright  Copyright © 2015 Mygento (http://www.mygento.ru)
  * @contacts   connect@mygento.ru
  * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
@@ -23,127 +22,130 @@
     <default>
         <reference name="head">
             <action method="addJs" ifconfig="jquerylib/general/next">
-                <script>jquery/jquery-1.10.1.min.js</script>
+                <script>jquerylib/jquery-2.1.3.min.js</script>
+            </action>
+            <action method="addJs" ifconfig="jquerylib/general/enabled">
+                <script>jquerylib/jquery-1.11.2.min.js</script>
+            </action>
+            <action method="addJs" ifconfig="jquerylib/general/old">
+                <script>jquerylib/jquery-1.6.4.min.js</script>
+            </action>
+            <action method="addJs" ifconfig="jquerylib/general/migrate">
+                <script>jquerylib/jquery-migrate-1.2.1.min.js</script>
+            </action>
+            <action method="addJs" ifconfig="jquerylib/general/enabled">
+                <script>jquerylib/mygento/jquery.init.js</script>
             </action>
             <action method="addJs" ifconfig="jquerylib/general/next">
-                <script>jquery/mygento/jquery.init.js</script>
+                <script>jquerylib/mygento/jquery.init.js</script>
             </action>
-            <action method="addJs" ifconfig="jquerylib/general/enabled">
-                <script>jquery/jquery-1.6.4.min.js</script>
-            </action>
-            <action method="addJs" ifconfig="jquerylib/general/enabled">
-                <script>jquery/mygento/jquery.init.js</script>
-            </action>
-            <action method="addJs" ifconfig="jquerylib/general/experimental">
-                <script>jquery/jquery-2.0.2.min.js</script>
-            </action>
-            <action method="addJs" ifconfig="jquerylib/general/experimental">    
-                <script>jquery/mygento/jquery.init.js</script>
+            <action method="addJs" ifconfig="jquerylib/general/old">    
+                <script>jquerylib/mygento/jquery.init.js</script>
             </action>
             <action method="addJs" ifconfig="jquerylib/plugins/easing">
-                <script>jquery/jquery.easing.1.3.js</script>
+                <script>jquerylib/jquery.easing.1.3.js</script>
             </action>
             <action method="addJs" ifconfig="jquerylib/plugins/carousel">
-                <script>jquery/jquery.jcarousel.min.js</script>
+                <script>jquerylib/jquery.jcarousel.min.js</script>
             </action>
             <action method="addJs" ifconfig="jquerylib/plugins/ui">
-                <script>jquery/jqueryui/jquery-ui.min.js</script>
+                <script>jquerylib/jqueryui/jquery-ui.min.js</script>
             </action>
             <action method="addItem" ifconfig="jquerylib/plugins/ui">
                 <type>js_css</type>
-                <name>jquery/jqueryui/jquery-ui.min.css</name>
+                <name>jquerylib/jqueryui/jquery-ui.min.css</name>
             </action>
             <action method="addJs" ifconfig="jquerylib/plugins/mobile">
-                <script>jquery/jquery.mobile-1.3.1.min.js</script>
+                <script>jquerylib/jquery.mobile-1.3.1.min.js</script>
             </action>
 
             <action method="addJs" ifconfig="jquerylib/plugins/hovercard">
-                <script>jquery/jquery.hovercard.min.js</script>
+                <script>jquerylib/jquery.hovercard.min.js</script>
             </action>
             <action method="addJs" ifconfig="jquerylib/plugins/ddslick">
-                <script>jquery/jquery.ddslick.min.js</script>
+                <script>jquerylib/jquery.ddslick.min.js</script>
             </action>
             <action method="addJs" ifconfig="jquerylib/plugins/masked">
-                <script>jquery/jquery.maskedinput.min.js</script>
+                <script>jquerylib/jquery.maskedinput.min.js</script>
             </action>
             <action method="addJs" ifconfig="jquerylib/plugins/backstretch">
-                <script>jquery/jquery.backstretch.min.js</script>
+                <script>jquerylib/jquery.backstretch.min.js</script>
             </action>
             <action method="addJs" ifconfig="jquerylib/plugins/modernizr">
-                <script>jquery/jquery.modernizr.min.js</script>
+                <script>jquerylib/jquery.modernizr.min.js</script>
             </action>
             <action method="addJs" ifconfig="jquerylib/plugins/chosen">
-                <script>jquery/chosen/chosen.jquery.min.js</script>
+                <script>jquerylib/chosen/chosen.jquery.min.js</script>
             </action>
             <action method="addItem" ifconfig="jquerylib/plugins/chosen">
                 <type>js_css</type>
-                <name>jquery/chosen/chosen.css</name>
+                <name>jquerylib/chosen/chosen.css</name>
             </action>
 
             <action method="addJs" ifconfig="jquerylib/plugins/galleria">
-                <script>jquery/galleria/galleria-1.2.9.min.js</script>
+                <script>jquerylib/galleria/galleria-1.2.9.min.js</script>
             </action>
             <action method="addJs" ifconfig="jquerylib/plugins/galleria">
-                <script>jquery/galleria/galleria.loadtheme.js</script>
+                <script>jquerylib/galleria/galleria.loadtheme.js</script>
             </action>
             <action method="addItem" ifconfig="jquerylib/plugins/galleria">
                 <type>js_css</type>
-                <name>jquery/galleria/themes/classic/galleria.classic.css</name>
+                <name>jquerylib/galleria/themes/classic/galleria.classic.css</name>
             </action>
 
 
             <action method="addJs" ifconfig="jquerylib/plugins/nivo">
-                <script>jquery/nivo/nivo.slider.pack.js</script>
+                <script>jquerylib/nivo/nivo.slider.pack.js</script>
             </action>
             <action method="addItem" ifconfig="jquerylib/plugins/nivo">
                 <type>js_css</type>
-                <name>jquery/nivo/nivo-slider.css</name>
+                <name>jquerylib/nivo/nivo-slider.css</name>
             </action>
             <action method="addItem" ifconfig="jquerylib/plugins/nivo">
                 <type>js_css</type>
-                <name>jquery/nivo/themes/default/default.css</name>
+                <name>jquerylib/nivo/themes/default/default.css</name>
             </action>
 
             <action method="addJs" ifconfig="jquerylib/plugins/slides">
-                <script>jquery/slides/slides.min.js</script>
+                <script>jquerylib/slides/slides.min.js</script>
             </action>
             <action method="addItem" ifconfig="jquerylib/plugins/slides">
                 <type>js_css</type>
-                <name>jquery/slides/slides.css</name>
+                <name>jquerylib/slides/slides.css</name>
             </action>
 
             <action method="addJs" ifconfig="jquerylib/plugins/fancy">
-                <script>jquery/fancybox/jquery.fancybox.pack.js</script>
+                <script>jquerylib/fancybox/jquery.fancybox.pack.js</script>
             </action>
             <action method="addItem" ifconfig="jquerylib/plugins/fancy">
                 <type>js_css</type>
-                <name>jquery/fancybox/jquery.fancybox.css</name>
+                <name>jquerylib/fancybox/jquery.fancybox.css</name>
             </action>
 
             <action method="addJs" ifconfig="jquerylib/plugins/loupe">
-                <script>jquery/loupe/jquery.loupe.min.js</script>
+                <script>jquerylib/loupe/jquery.loupe.min.js</script>
             </action>
             <action method="addItem" ifconfig="jquerylib/plugins/loupe">
                 <type>js_css</type>
-                <name>jquery/loupe/loupe.css</name>
+                <name>jquerylib/loupe/loupe.css</name>
             </action>
 
 
             <action method="addJs" ifconfig="jquerylib/plugins/skitter">
-                <script>jquery/skitter/jquery.skitter.min.js</script>
+                <script>jquerylib/skitter/jquery.skitter.min.js</script>
             </action>
             
             <action method="addItem" ifconfig="jquerylib/plugins/skitter">
                 <type>js_css</type>
-                <name>jquery/skitter/css/skitter.styles.min.css</name>
+                <name>jquerylib/skitter/css/skitter.styles.min.css</name>
             </action>
 
             <action method="addJs" ifconfig="jquerylib/plugins/tiptip">
-                <script>jquery/tiptip/jquery.tipTip.min.js</script>
+                <script>jquerylib/tiptip/jquery.tipTip.min.js</script>
             </action>
             <action method="addItem" ifconfig="jquerylib/plugins/tiptip">
                 <type>js_css</type>
-                <name>jquery/tiptip/tipTip.css</name>
+                <name>jquerylib/tiptip/tipTip.css</name>
             </action>
         </reference>
     </default>
