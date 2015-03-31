@@ -1,4 +1,4 @@
-app/code/community/Mygento/JQuerylib app/code/community/Mygento/JQuerylib
+app/code/community/Mygento/JQueryLib app/code/community/Mygento/JQueryLib
 app/etc/modules/Mygento_JQueryLib.xml app/etc/modules/Mygento_JQueryLib.xml
 app/design/frontend/base/default/layout/mygento/jquerylib.xml app/design/frontend/base/default/layout/mygento/jquerylib.xml
 js/jquerylib js/jquerylib
