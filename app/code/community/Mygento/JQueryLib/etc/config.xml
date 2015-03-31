@@ -21,7 +21,7 @@
 <config>
     <modules>
         <Mygento_JQueryLib>
-            <version>1.11.3.0</version>
+            <version>1.11.4.0</version>
         </Mygento_JQueryLib>
     </modules>
     <default>
