@@ -1,7 +1,7 @@
 {
     "name": "mygento/jquerylib",
     "type": "magento-module",
-    "license": "AFL v3.0",
+    "license": "OSL-3.0",
     "homepage": "https://github.com/mygento/jquerylib",
     "description": "Jquery Integration",
     "require": {
