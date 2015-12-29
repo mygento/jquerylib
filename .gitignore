@@ -114,3 +114,13 @@ skin/adminhtml/default/default/images/mygento/base/logo.png
 !/bower_components/slick-carousel/slick/slick.css
 !/bower_components/slick-carousel/slick/ajax-loader.gif
 !/bower_components/slick-carousel/slick/fonts/
+
+/bower_components/skitter-slideshow/*
+!/bower_components/skitter-slideshow/js
+!/bower_components/skitter-slideshow/images
+!/bower_components/skitter-slideshow/css
+/bower_components/skitter-slideshow/js/jquery.skitter.js
+/bower_components/skitter-slideshow/css/skitter.styles.css
+
+/bower_components/galleria/*
+!/bower_components/galleria/src

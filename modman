@@ -24,3 +24,5 @@ bower_components/ddslick/jquery.ddslick.min.js js/jquerylib/jquery.ddslick.min.j
 bower_components/jquery.hovercard/jquery.hovercard.min.js js/jquerylib/jquery.hovercard.min.js
 bower_components/jquery-backstretch/jquery.backstretch.min.js js/jquerylib/jquery.backstretch.min.js
 bower_components/slick-carousel/slick js/jquerylib/slick
+bower_components/skitter-slideshow js/jquerylib/skitter
+bower_components/galleria/src js/jquerylib/galleria
