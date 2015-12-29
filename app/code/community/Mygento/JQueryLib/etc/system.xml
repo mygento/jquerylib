@@ -1,281 +1,251 @@
 <?xml version="1.0"?>
-<!-- 
+<!--
 /**
-* Sea-Lab Ltd
-*
-* NOTICE OF LICENSE
-*
-* This source file is subject to the Academic Free License (AFL 3.0)
-*
-* DISCLAIMER
-*
-* Do not edit or add to this file if you wish to upgrade to newer
-* versions in the future.
-*
-* @category   Mygento
-* @package    Mygento_JQuerylib
-* @copyright  Copyright © 2013 Sea-Lab Ltd (http://www.mygento.ru)
-* @contacts   connect@mygento.ru
-* @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
-*/ 
+ * @category   Mygento
+ * @package    Mygento_JQueryLib
+ * @copyright  Copyright © 2015 NKS LLC. (http://www.mygento.ru)
+ */
 -->
-<config>
-    <tabs>
-        <allmygento translate="label">
-            <label>Mygento Extensions</label>
-            <sort_order>400</sort_order>
-        </allmygento>
-    </tabs>
-    <sections>
-        <jquerylib translate="label" module="jquerylib">
-            <label>JQuery Library</label>
-            <tab>allmygento</tab>
-            <frontend_type>text</frontend_type>
-            <sort_order>90</sort_order>
-            <show_in_default>1</show_in_default>
-            <show_in_website>1</show_in_website>
-            <show_in_store>1</show_in_store>
-            <groups>
-                <general translate="label">
-                    <label>JQuery Library</label>
-                    <frontend_type>text</frontend_type>
-                    <sort_order>10</sort_order>
-                    <show_in_default>1</show_in_default>
-                    <show_in_website>1</show_in_website>
-                    <show_in_store>1</show_in_store>
-                    <fields>                        
-                        <next translate="label">
-                            <label>Enabled</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>1</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 2.1.3 <a href="http://jquery.com/" target="_blank">Click here for example!</a>]]></comment>
-                        </next>
-                        <enabled translate="label">
-                            <label>Old Version</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>2</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment>ver. 1.11.2</comment>
-                        </enabled>
-                        <old translate="label">
-                            <label>Old</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>3</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 1.6.4 <a href="http://jquery.com/" target="_blank">Click here for example!</a>]]></comment>
-                        </old>
-                        <migrate translate="label">
-                            <label>Migration</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>4</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 1.2.1 <a href="http://jquery.com/" target="_blank">Click here for example!</a>]]></comment>
-                        </migrate>
-                        <debug translate="label">
-                            <label>Debug</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>5</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                        </debug>
-                    </fields>
-                </general>
-                <plugins translate="label">
-                    <label>JQuery Plugins</label>
-                    <frontend_type>text</frontend_type>
-                    <sort_order>20</sort_order>
-                    <show_in_default>1</show_in_default>
-                    <show_in_website>1</show_in_website>
-                    <show_in_store>1</show_in_store>
-                    <fields>
-                        <easing translate="label">
-                            <label>Easing</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>1</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 1.3 <a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">Click here for example!</a>]]></comment>
-                        </easing>
-                        <ui translate="label">
-                            <label>jQuery UI</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>2</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 1.11.2 <a href="http://jqueryui.com/" target="_blank">Click here for example!</a>]]></comment>
-                        </ui>
-                        <mobile translate="label">
-                            <label>jQuery Mobile</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>3</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 1.4.5 <a href="http://jquerymobile.com/" target="_blank">Click here for example!</a>]]></comment>
-                        </mobile>
-                        <carousel translate="label">
-                            <label>jCarousel</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>4</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 0.3.1 <a href="http://sorgalla.com/projects/jcarousel/" target="_blank">Click here for example!</a>]]></comment>
-                        </carousel>
-                        <galleria translate="label">
-                            <label>Galleria</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>5</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 1.4.2 <a href="http://galleria.io/" target="_blank">Click here for example!</a>]]></comment>                            
-                        </galleria>
-                        <nivo translate="label">
-                            <label>Nivo Slider</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>6</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 3.2.0 <a href="http://nivo.dev7studios.com/" target="_blank">Click here for example!</a>]]></comment>
-                        </nivo>
-                        <slides translate="label">
-                            <label>Slides</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>7</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 1.2.0 <a href="http://slidesjs.com/" target="_blank">Click here for example!</a>]]></comment>
-                        </slides>
-                        <chosen translate="label">
-                            <label>Chosen</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>8</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 1.3.0 <a href="http://harvesthq.github.com/chosen/" target="_blank">Click here for example!</a>]]></comment>
-                        </chosen>
-                        <fancy translate="label">
-                            <label>Fancybox</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>9</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 2.1.5 <a href="http://fancyapps.com/fancybox/" target="_blank">Click here for example!</a>]]></comment>                            
-                        </fancy>
-                        <skitter translate="label">
-                            <label>Skitter</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>10</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 4.2.3 <a href="http://thiagosf.net/projects/jquery/skitter/" target="_blank">Click here for example!</a>]]></comment>
-                        </skitter>
-                        <hovercard translate="label">
-                            <label>Hovercard</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>11</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 2.4 <a href="http://designwithpc.com/Plugins/Hovercard" target="_blank">Click here for example!</a>]]></comment>
-                        </hovercard>
-                        <ddslick translate="label">
-                            <label>ddSlick</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>12</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 2.0 <a href="http://designwithpc.com/Plugins/ddSlick" target="_blank">Click here for example!</a>]]></comment>
-                        </ddslick>
-                        <masked translate="label">
-                            <label>Masked Input Plugin</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>11</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 1.4.0 <a href="http://digitalbush.com/projects/masked-input-plugin/" target="_blank">Click here for example!</a>]]></comment>
-                        </masked>
-                        <backstretch translate="label">
-                            <label>Backstretch</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>12</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 2.0.4 <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank">Click here for example!</a>]]></comment>
-                        </backstretch>
-                        <modernizr translate="label">
-                            <label>Modernizr</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>13</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 2.8.3 <a href="http://modernizr.com/" target="_blank">Click here for example!</a>]]></comment>
-                        </modernizr>
-                        <tiptip translate="label">
-                            <label>TipTip</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>29</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[ver. 1.3 <a href="http://code.drewwilson.com/entry/tiptip-jquery-plugin" target="_blank">Click here for example!</a>]]></comment>
-                        </tiptip>
-                        <loupe translate="label">
-                            <label>Loupe</label>
-                            <frontend_type>select</frontend_type>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <sort_order>30</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment><![CDATA[<a href="http://jdbartlett.com/loupe/" target="_blank">Click here for example!</a>]]></comment>
-                        </loupe>
-                    </fields>
-                </plugins >
-            </groups>
-        </jquerylib>
-    </sections>
+<sections>
+    <jquerylib translate="label" module="jquerylib">
+        <label>JQuery Library</label>
+        <tab>allmygento</tab>
+        <frontend_type>text</frontend_type>
+        <sort_order>90</sort_order>
+        <show_in_default>1</show_in_default>
+        <show_in_website>1</show_in_website>
+        <show_in_store>1</show_in_store>
+        <groups>
+            <general translate="label">
+                <label>JQuery Library</label>
+                <frontend_type>text</frontend_type>
+                <sort_order>10</sort_order>
+                <show_in_default>1</show_in_default>
+                <show_in_website>1</show_in_website>
+                <show_in_store>1</show_in_store>
+                <fields>
+                    <enabled translate="label">
+                        <label>Enabled</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>1</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 2.x <a href="http://jquery.com/" target="_blank">Click here for example!</a>]]></comment>
+                    </enabled>
+                    <legacy translate="label">
+                        <label>Legacy Version</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>2</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment>ver. 1.x</comment>
+                    </legacy>
+                    <migrate translate="label">
+                        <label>Migration</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>4</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                    </migrate>
+                </fields>
+            </general>
+            <plugins translate="label">
+                <label>JQuery Plugins</label>
+                <frontend_type>text</frontend_type>
+                <sort_order>20</sort_order>
+                <show_in_default>1</show_in_default>
+                <show_in_website>1</show_in_website>
+                <show_in_store>1</show_in_store>
+                <fields>
+                    <easing translate="label">
+                        <label>Easing</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>10</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 1.3 <a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">Click here for example!</a>]]></comment>
+                    </easing>
+                    <ui translate="label">
+                        <label>jQuery UI</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>11</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 1.11.4 <a href="http://jqueryui.com/" target="_blank">Click here for example!</a>]]></comment>
+                    </ui>
+                    <carousel translate="label">
+                        <label>jCarousel</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>12</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 0.3.4 <a href="http://sorgalla.com/projects/jcarousel/" target="_blank">Click here for example!</a>]]></comment>
+                    </carousel>
+                    <galleria translate="label">
+                        <label>Galleria</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>13</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 1.4.2 <a href="http://galleria.io/" target="_blank">Click here for example!</a>]]></comment>
+                    </galleria>
+                    <chosen translate="label">
+                        <label>Chosen</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>14</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 1.4.2 <a href="http://harvesthq.github.com/chosen/" target="_blank">Click here for example!</a>]]></comment>
+                    </chosen>
+                    <fancy translate="label">
+                        <label>Fancybox</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>15</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 2.1.5 <a href="http://fancyapps.com/fancybox/" target="_blank">Click here for example!</a>]]></comment>
+                    </fancy>
+                    <skitter translate="label">
+                        <label>Skitter</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>16</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 4.4.0 <a href="http://thiagosf.net/projects/jquery/skitter/" target="_blank">Click here for example!</a>]]></comment>
+                    </skitter>
+                    <hovercard translate="label">
+                        <label>Hovercard</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>17</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 2.4 <a href="http://designwithpc.com/Plugins/Hovercard" target="_blank">Click here for example!</a>]]></comment>
+                    </hovercard>
+                    <ddslick translate="label">
+                        <label>ddSlick</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>18</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 2.0 <a href="http://designwithpc.com/Plugins/ddSlick" target="_blank">Click here for example!</a>]]></comment>
+                    </ddslick>
+                    <masked translate="label">
+                        <label>Masked Input Plugin</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>19</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 1.4.1 <a href="http://digitalbush.com/projects/masked-input-plugin/" target="_blank">Click here for example!</a>]]></comment>
+                    </masked>
+                    <validation translate="label">
+                        <label>Validation</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>20</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 1.14.0 <a href="http://jqueryvalidation.org/" target="_blank">Click here for example!</a>]]></comment>
+                    </validation>
+                    <backstretch translate="label">
+                        <label>Backstretch</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>21</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 2.0.4 <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank">Click here for example!</a>]]></comment>
+                    </backstretch>
+                    <modernizr translate="label">
+                        <label>Modernizr</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>22</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 2.8.3 <a href="http://modernizr.com/" target="_blank">Click here for example!</a>]]></comment>
+                    </modernizr>
+                    <sweetalert>
+                        <label>Sweetalert</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>23</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 1.1.3 <a href="http://t4t5.github.io/sweetalert/" target="_blank">Click here for example!</a>]]></comment>
+                    </sweetalert>
+                    <slick translate="label">
+                        <label>Slick Slider</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>24</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 1.5.9 <a href="http://kenwheeler.github.io/slick/" target="_blank">Click here for example!</a>]]></comment>
+                    </slick>
+                    <owl translate="label">
+                        <label>Owl Carousel 2</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>25</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 2.0.0-beta.3 <a href="http://www.owlcarousel.owlgraphic.com/" target="_blank">Click here for example!</a>]]></comment>
+                    </owl>
+                    <jscrollpane>
+                        <label>Owl Carousel 2</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>26</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 2.0.22 <a href="http://jscrollpane.kelvinluck.com/" target="_blank">Click here for example!</a>]]></comment>
+                    </jscrollpane>
+                    <mousewheel>
+                        <label>Mousewheel</label>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_yesno</source_model>
+                        <sort_order>27</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <comment><![CDATA[ver. 3.1.13 <a href="https://github.com/jquery/jquery-mousewheel" target="_blank">Click here for example!</a>]]></comment>
+                    </mousewheel>
+                </fields>
+            </plugins >
+        </groups>
+    </jquerylib>
+</sections>
 </config>

@@ -1,27 +1,15 @@
 <?xml version="1.0"?>
 <!--
 /**
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the Academic Free License (AFL 3.0)
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade to newer
- * versions in the future.
- *
  * @category   Mygento
  * @package    Mygento_JQueryLib
- * @copyright  Copyright © 2015 Mygento (http://www.mygento.ru)
- * @contacts   connect@mygento.ru
- * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ * @copyright  Copyright © 2015 NKS LLC. (http://www.mygento.ru)
  */ 
 -->
 <config>
     <modules>
         <Mygento_JQueryLib>
-            <version>1.11.4.0</version>
+            <version>1.2.0</version>
         </Mygento_JQueryLib>
     </modules>
     <default>
@@ -29,26 +17,26 @@
             <general>
                 <enabled>1</enabled>
                 <migrate>1</migrate>
-                <next>0</next>
-                <debug>0</debug>
+                <legacy>0</legacy>
             </general>
             <plugins>
                 <easing>0</easing>
                 <carousel>0</carousel>
                 <galleria>0</galleria>
-                <nivo>0</nivo>
-                <slides>0</slides>
                 <fancy>0</fancy>
-                <loupe>0</loupe>
                 <ui>0</ui>
                 <skitter>0</skitter>
-                <tiptip>0</tiptip>
-                <mobile>0</mobile>
                 <chosen>0</chosen>
                 <hovercard>0</hovercard>
                 <masked>0</masked>
                 <ddslick>0</ddslick>
                 <modernizr>0</modernizr>
+                <sweetalert>0</sweetalert>
+                <maskedinput>0</maskedinput>
+                <jscrollpane>0</jscrollpane>
+                <mousewheel>0</mousewheel>
+                <owl>0</owl>
+                <slick>0</slick>
             </plugins>
         </jquerylib>
     </default>
