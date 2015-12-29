@@ -69,3 +69,22 @@ skin/adminhtml/default/default/images/mygento/base/logo.png
 
 /bower_components/chosen/.bower.json
 /bower_components/chosen/bower.json
+
+/bower_components/sweetalert/*
+!/bower_components/sweetalert/dist
+/bower_components/sweetalert/dist/*
+!/bower_components/sweetalert/dist/sweetalert.min.js
+!/bower_components/sweetalert/dist/sweetalert.css
+
+/bower_components/jquery-validation/*
+!/bower_components/jquery-validation/dist
+/bower_components/jquery-validation/dist/*
+!/bower_components/jquery-validation/dist/jquery.validate.min.js
+
+/bower_components/jScrollPane/*
+!/bower_components/jScrollPane/script
+/bower_components/jScrollPane/script/*
+!/bower_components/jScrollPane/script/jquery.jscrollpane.min.js
+
+/bower_components/jquery-mousewheel/*
+!/bower_components/jquery-mousewheel/jquery.mousewheel.min.js
