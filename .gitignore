@@ -23,10 +23,20 @@ skin/adminhtml/default/default/images/mygento/base/logo.png
 
 #bower
 /bower_components/jquery/*
+!/bower_components/jquery/dist
+/bower_components/jquery/dist/*
 !/bower_components/jquery/dist/jquery.min.js
-/bower_components/jquery-legacy
+
+/bower_components/jquery-legacy/*
+!/bower_components/jquery-legacy/dist
+/bower_components/jquery-legacy/dist/*
 !/bower_components/jquery-legacy/dist/jquery.min.js
-/bower_components/jquery-ui
+
+/bower_components/jquery-ui/*
 !/bower_components/jquery-ui/jquery-ui.min.js
+!/bower_components/jquery-ui/themes
+/bower_components/jquery-ui/themes/*
+!/bower_components/jquery-ui/themes/base
+/bower_components/jquery-ui/themes/base/*
 !/bower_components/jquery-ui/themes/base/jquery-ui.min.css
 !/bower_components/jquery-ui/themes/base/images
