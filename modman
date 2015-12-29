@@ -1,8 +1,16 @@
 app/code/community/Mygento/JQueryLib app/code/community/Mygento/JQueryLib
 app/etc/modules/Mygento_JQueryLib.xml app/etc/modules/Mygento_JQueryLib.xml
 app/design/frontend/base/default/layout/mygento/jquerylib.xml app/design/frontend/base/default/layout/mygento/jquerylib.xml
+js/jquerylib/mygento/jquery.init.js js/jquerylib/mygento/jquery.init.js
 bower_components/jquery/dist/jquery.min.js js/jquerylib/jquery.min.js
 bower_components/jquery-legacy/dist/jquery.min.js js/jquerylib/jquery.legacy.min.js
 bower_components/jquery-ui/jquery-ui.min.js js/jquerylib/jquery-ui/jquery-ui.min.js
 bower_components/jquery-ui/themes/base/jquery-ui.min.css js/jquerylib/jquery-ui/jquery-ui.min.css
 bower_components/jquery-ui/themes/base/images js/jquerylib/jquery-ui/images
+bower_components/jquery-migrate/index.js js/jquerylib/jquery.migrate.min.js
+bower_components/jquery.easing/js/jquery.easing.min.js js/jquerylib/jquery.easing.min.js
+bower_components/jquery.maskedinput/dist/jquery.maskedinput.min.js js/jquerylib/jquery.maskedinput.min.js
+bower_components/jcarousel/dist/jquery.jcarousel.min.js js/jquerylib/jquery.jcarousel.min.js
+bower_components/modernizr/modernizr.js js/jquerylib/modernizr.js
+bower_components/fancybox/source js/jquerylib/fancybox
+bower_components/chosen js/jquerylib/chosen
