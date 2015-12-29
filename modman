@@ -1,4 +1,8 @@
 app/code/community/Mygento/JQueryLib app/code/community/Mygento/JQueryLib
 app/etc/modules/Mygento_JQueryLib.xml app/etc/modules/Mygento_JQueryLib.xml
 app/design/frontend/base/default/layout/mygento/jquerylib.xml app/design/frontend/base/default/layout/mygento/jquerylib.xml
-js/jquerylib js/jquerylib
+bower_components/jquery/dist/jquery.min.js js/jquerylib/jquery.min.js
+bower_components/jquery-legacy/dist/jquery.min.js js/jquerylib/jquery.legacy.min.js
+bower_components/jquery-ui/jquery-ui.min.js js/jquerylib/jquery-ui/jquery-ui.min.js
+bower_components/jquery-ui/themes/base/jquery-ui.min.css js/jquerylib/jquery-ui/jquery-ui.min.css
+bower_components/jquery-ui/themes/base/images js/jquerylib/jquery-ui/images

@@ -1,0 +1,23 @@
+{
+  "name": "mygento-jquery",
+  "homepage": "https://github.com/mygento/jquerylib",
+  "authors": [
+    "Nikita Tarasov <nikita@mygento.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "jquery-ui": "~1.11.4",
+    "jquery-legacy": "jquery#^1"
+  }
+}
