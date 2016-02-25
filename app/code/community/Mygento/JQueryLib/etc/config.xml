@@ -4,12 +4,12 @@
  * @category   Mygento
  * @package    Mygento_JQueryLib
  * @copyright  Copyright © 2015 NKS LLC. (http://www.mygento.ru)
- */ 
+ */
 -->
 <config>
     <modules>
         <Mygento_JQueryLib>
-            <version>1.2.0</version>
+            <version>1.12.0</version>
         </Mygento_JQueryLib>
     </modules>
     <default>
@@ -40,7 +40,7 @@
             </plugins>
         </jquerylib>
     </default>
-    <global>       
+    <global>
         <helpers>
             <jquerylib>
                 <class>Mygento_JQueryLib_Helper</class>
