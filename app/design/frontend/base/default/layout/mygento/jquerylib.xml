@@ -43,18 +43,18 @@
                 <script>jquerylib/jquery.jcarousel.min.js</script>
             </action>
             <action method="addJs" ifconfig="jquerylib/plugins/ui">
-                <script>jquerylib/jqueryui/jquery-ui.min.js</script>
+                <script>jquerylib/jquery-ui/jquery-ui.min.js</script>
             </action>
 
             <action method="addItem" ifconfig="jquerylib/plugins/ui">
                 <type>js_css</type>
-                <name>jquerylib/jqueryui/jquery-ui.min.css</name>
+                <name>jquerylib/jquery-ui/jquery-ui.min.css</name>
             </action>
 
             <action method="addJs" ifconfig="jquerylib/plugins/hovercard">
                 <script>jquerylib/jquery.hovercard.min.js</script>
             </action>
-            
+
             <action method="addJs" ifconfig="jquerylib/plugins/ddslick">
                 <script>jquerylib/jquery.ddslick.min.js</script>
             </action>
@@ -97,7 +97,7 @@
             <action method="addJs" ifconfig="jquerylib/plugins/skitter">
                 <script>jquerylib/skitter/js/jquery.skitter.min.js</script>
             </action>
-            
+
             <action method="addItem" ifconfig="jquerylib/plugins/skitter">
                 <type>js_css</type>
                 <name>jquerylib/skitter/css/skitter.styles.min.css</name>

@@ -16,7 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.2.1",
+    "jquery": "~2.2.2",
     "jquery-ui": "~1.11.4",
     "jquery-legacy": "jquery#^1",
     "jquery-migrate": "http://code.jquery.com/jquery-migrate-1.2.1.min.js",

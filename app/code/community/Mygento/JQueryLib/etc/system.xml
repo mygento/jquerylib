@@ -259,7 +259,7 @@
                             </comment>
                         </owl>
                         <jscrollpane>
-                            <label>Owl Carousel 2</label>
+                            <label>jScrollpane</label>
                             <frontend_type>select</frontend_type>
                             <source_model>adminhtml/system_config_source_yesno</source_model>
                             <sort_order>26</sort_order>
