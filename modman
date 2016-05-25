@@ -26,3 +26,5 @@ bower_components/jquery-backstretch/jquery.backstretch.min.js js/jquerylib/jquer
 bower_components/slick-carousel/slick js/jquerylib/slick
 bower_components/skitter-slideshow js/jquerylib/skitter
 bower_components/galleria/src js/jquerylib/galleria
+bower_components/PACE/pace.min.js js/jquerylib/pace/pace.min.js
+bower_components/PACE/themes js/jquerylib/pace/themes

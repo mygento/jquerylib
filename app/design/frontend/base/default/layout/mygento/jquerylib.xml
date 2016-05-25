@@ -141,6 +141,10 @@
                 <type>js_css</type>
                 <name>jquerylib/slick/slick-theme.css</name>
             </action>
+
+            <action method="addJs" ifconfig="jquerylib/plugins/pace">
+                <script>jquerylib/pace/pace.min.js</script>
+            </action>
         </reference>
     </default>
 </layout>
