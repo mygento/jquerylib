@@ -3,7 +3,7 @@
 /**
  * @category   Mygento
  * @package    Mygento_JQueryLib
- * @copyright  Copyright © 2015 NKS LLC. (http://www.mygento.ru)
+ * @copyright  Copyright © 2016 NKS LLC. (http://www.mygento.ru)
  */
 -->
 <config>
@@ -37,6 +37,7 @@
                 <mousewheel>0</mousewheel>
                 <owl>0</owl>
                 <slick>0</slick>
+                <pace>0</pace>
             </plugins>
         </jquerylib>
     </default>

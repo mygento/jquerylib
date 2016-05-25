@@ -124,3 +124,8 @@ skin/adminhtml/default/default/images/mygento/base/logo.png
 
 /bower_components/galleria/*
 !/bower_components/galleria/src
+
+
+/bower_components/PACE/*
+!/bower_components/PACE/pace.min.js
+!/bower_components/PACE/themes

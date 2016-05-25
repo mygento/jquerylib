@@ -3,7 +3,7 @@
 /**
  * @category   Mygento
  * @package    Mygento_JQueryLib
- * @copyright  Copyright © 2015 NKS LLC. (http://www.mygento.ru)
+ * @copyright  Copyright © 2016 NKS LLC. (http://www.mygento.ru)
  */
 -->
 <config>
@@ -282,6 +282,18 @@
                                 <![CDATA[ver. 3.1.13 <a href="https://github.com/jquery/jquery-mousewheel" target="_blank">Click here for example!</a>]]>
                             </comment>
                         </mousewheel>
+                        <pace>
+                          <label>Pace</label>
+                          <frontend_type>select</frontend_type>
+                          <source_model>adminhtml/system_config_source_yesno</source_model>
+                          <sort_order>28</sort_order>
+                          <show_in_default>1</show_in_default>
+                          <show_in_website>1</show_in_website>
+                          <show_in_store>1</show_in_store>
+                          <comment>
+                              <![CDATA[ver. 1.0.2 <a href="http://github.hubspot.com/pace/docs/welcome/" target="_blank">Click here for example!</a>]]>
+                          </comment>
+                        </pace>
                     </fields>
                 </plugins >
             </groups>

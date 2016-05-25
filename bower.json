@@ -36,6 +36,7 @@
     "jquery-backstretch": "~2.0.4",
     "slick-carousel": "~1.5.9",
     "skitter-slideshow": "~4.4.0",
-    "galleria": "~1.4.2"
+    "galleria": "~1.4.2",
+    "PACE": "pace#^1.0.2"
   }
 }
