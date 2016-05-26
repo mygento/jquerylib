@@ -118,7 +118,7 @@
             <action method="addJs" ifconfig="jquerylib/plugins/sweetalert">
                 <script>jquerylib/jquery.mousewheel.min.js</script>
             </action>
-            <action method="addJs" ifconfig="jquerylib/plugins/sweetalert">
+            <action method="addJs" ifconfig="jquerylib/plugins/jscrollpane">
                 <script>jquerylib/jquery.jscrollpane.min.js</script>
             </action>
 
