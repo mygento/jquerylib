@@ -17,6 +17,7 @@ bower_components/chosen js/jquerylib/chosen
 bower_components/sweetalert/dist js/jquerylib/sweetalert
 bower_components/jquery-validation/dist/jquery.validate.min.js js/jquerylib/jquery.validate.min.js
 bower_components/jScrollPane/script/jquery.jscrollpane.min.js js/jquerylib/jquery.jscrollpane.min.js
+bower_components/jScrollPane/style/jquery.jscrollpane.css js/jquerylib/jquery.jscrollpane.css
 bower_components/jquery-mousewheel/jquery.mousewheel.min.js js/jquerylib/jquery.mousewheel.min.js
 bower_components/owl.carousel/dist/owl.carousel.min.js js/jquerylib/owl.carousel.min.js
 bower_components/owl.carousel/dist/assets/owl.carousel.min.css js/jquerylib/owl.carousel.min.css

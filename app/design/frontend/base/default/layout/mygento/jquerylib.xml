@@ -121,6 +121,10 @@
             <action method="addJs" ifconfig="jquerylib/plugins/jscrollpane">
                 <script>jquerylib/jquery.jscrollpane.min.js</script>
             </action>
+            <action method="addItem" ifconfig="jquerylib/plugins/jscrollpane">
+                <type>js_css</type>
+                <name>jquerylib/jquery.jscrollpane.css</name>
+            </action>
 
             <action method="addJs" ifconfig="jquerylib/plugins/owl">
                 <script>jquerylib/owl.carousel.min.js</script>

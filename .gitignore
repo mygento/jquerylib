@@ -85,6 +85,9 @@ skin/adminhtml/default/default/images/mygento/base/logo.png
 !/bower_components/jScrollPane/script
 /bower_components/jScrollPane/script/*
 !/bower_components/jScrollPane/script/jquery.jscrollpane.min.js
+!/bower_components/jScrollPane/style
+/bower_components/jScrollPane/style/*
+!/bower_components/jScrollPane/style/jquery.jscrollpane.css
 
 /bower_components/jquery-mousewheel/*
 !/bower_components/jquery-mousewheel/jquery.mousewheel.min.js
