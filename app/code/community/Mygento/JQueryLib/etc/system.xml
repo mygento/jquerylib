@@ -123,7 +123,7 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <comment>
-                                <![CDATA[ver. 1.4.2 <a href="http://harvesthq.github.com/chosen/" target="_blank">Click here for example!</a>]]>
+                                <![CDATA[ver. 1.5.1 <a href="http://harvesthq.github.com/chosen/" target="_blank">Click here for example!</a>]]>
                             </comment>
                         </chosen>
                         <fancy translate="label">
@@ -195,7 +195,7 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <comment>
-                                <![CDATA[ver. 1.14.0 <a href="http://jqueryvalidation.org/" target="_blank">Click here for example!</a>]]>
+                                <![CDATA[ver. 1.15.1 <a href="http://jqueryvalidation.org/" target="_blank">Click here for example!</a>]]>
                             </comment>
                         </validation>
                         <backstretch translate="label">
@@ -243,7 +243,7 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <comment>
-                                <![CDATA[ver. 1.5.9 <a href="http://kenwheeler.github.io/slick/" target="_blank">Click here for example!</a>]]>
+                                <![CDATA[ver. 1.6.0 <a href="http://kenwheeler.github.io/slick/" target="_blank">Click here for example!</a>]]>
                             </comment>
                         </slick>
                         <owl translate="label">
@@ -255,7 +255,7 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <comment>
-                                <![CDATA[ver. 2.1.4 <a href="http://www.owlcarousel.owlgraphic.com/" target="_blank">Click here for example!</a>]]>
+                                <![CDATA[ver. 2.1.5 <a href="http://www.owlcarousel.owlgraphic.com/" target="_blank">Click here for example!</a>]]>
                             </comment>
                         </owl>
                         <jscrollpane>

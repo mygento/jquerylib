@@ -68,7 +68,7 @@
                 <script>jquerylib/modernizr.js</script>
             </action>
             <action method="addJs" ifconfig="jquerylib/plugins/chosen">
-                <script>jquerylib/chosen/chosen.jquery.min.js</script>
+                <script>jquerylib/chosen/chosen.jquery.js</script>
             </action>
             <action method="addItem" ifconfig="jquerylib/plugins/chosen">
                 <type>js_css</type>
