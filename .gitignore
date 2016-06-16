@@ -44,6 +44,9 @@ skin/adminhtml/default/default/images/mygento/base/logo.png
 /bower_components/jquery-migrate/*
 !/bower_components/jquery-migrate/index.js
 
+/bower_components/jquery-migrate-legacy/*
+!/bower_components/jquery-migrate-legacy/index.js
+
 /bower_components/jquery.easing/*
 !/bower_components/jquery.easing/js
 /bower_components/jquery.easing/js/*
