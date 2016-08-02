@@ -16,8 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~3.0.0",
-    "jquery-ui": "~1.11.4",
+    "jquery": "~3.1.0",
+    "jquery-ui": "~1.12.0",
     "jquery-legacy": "jquery#^1",
     "jquery-migrate": "https://code.jquery.com/jquery-migrate-3.0.0.min.js",
     "jquery-migrate-legacy": "http://code.jquery.com/jquery-migrate-1.4.1.min.js",
@@ -26,9 +26,9 @@
     "jcarousel": "~0.3.4",
     "modernizr": "components/modernizr#~2.8.3",
     "fancybox": "~2.1.5",
-    "chosen": "~1.5.1",
+    "chosen": "~1.6.1",
     "sweetalert": "~1.1.3",
-    "jquery-validation": "~1.15.0",
+    "jquery-validation": "~1.15.1",
     "jScrollPane": "~2.0.22",
     "jquery-mousewheel": "~3.1.13",
     "owl.carousel": "~2.1",
@@ -36,8 +36,9 @@
     "jquery.hovercard": "*",
     "jquery-backstretch": "~2.0.4",
     "slick-carousel": "~1.6.0",
-    "skitter-slideshow": "~4.4.0",
+    "skitter-slideshow": "~5.0.0",
     "galleria": "~1.4.2",
-    "PACE": "pace#^1.0.2"
+    "PACE": "pace#^1.0.2",
+    "select2": "^4.0.3"
   }
 }

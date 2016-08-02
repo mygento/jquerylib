@@ -72,6 +72,9 @@ skin/adminhtml/default/default/images/mygento/base/logo.png
 
 /bower_components/chosen/.bower.json
 /bower_components/chosen/bower.json
+/bower_components/chosen/.travis.yml
+/bower_components/chosen/README.md
+/bower_components/chosen/package.json
 
 /bower_components/sweetalert/*
 !/bower_components/sweetalert/dist
@@ -122,11 +125,9 @@ skin/adminhtml/default/default/images/mygento/base/logo.png
 !/bower_components/slick-carousel/slick/fonts/
 
 /bower_components/skitter-slideshow/*
-!/bower_components/skitter-slideshow/js
+!/bower_components/skitter-slideshow/dist
 !/bower_components/skitter-slideshow/images
-!/bower_components/skitter-slideshow/css
-/bower_components/skitter-slideshow/js/jquery.skitter.js
-/bower_components/skitter-slideshow/css/skitter.styles.css
+/bower_components/skitter-slideshow/dist/jquery.skitter.js
 
 /bower_components/galleria/*
 !/bower_components/galleria/src
@@ -135,3 +136,10 @@ skin/adminhtml/default/default/images/mygento/base/logo.png
 /bower_components/PACE/*
 !/bower_components/PACE/pace.min.js
 !/bower_components/PACE/themes
+
+/bower_components/select2/*
+!/bower_components/select2/dist
+/bower_components/select2/dist/css/select2.css
+/bower_components/select2/dist/js/select2.full.js
+/bower_components/select2/dist/js/select2.js
+/bower_components/select2/dist/js/select2.min.js

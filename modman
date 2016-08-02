@@ -30,3 +30,5 @@ bower_components/skitter-slideshow js/jquerylib/skitter
 bower_components/galleria/src js/jquerylib/galleria
 bower_components/PACE/pace.min.js js/jquerylib/pace/pace.min.js
 bower_components/PACE/themes js/jquerylib/pace/themes
+bower_components/select2/dist/css/select2.min.css js/jquerylib/select2/select2.min.css
+bower_components/select2/dist/js/select2.full.min.js js/jquerylib/select2/select2.full.min.js

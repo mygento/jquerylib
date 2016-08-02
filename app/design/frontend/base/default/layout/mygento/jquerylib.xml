@@ -95,12 +95,12 @@
             </action>
 
             <action method="addJs" ifconfig="jquerylib/plugins/skitter">
-                <script>jquerylib/skitter/js/jquery.skitter.min.js</script>
+                <script>jquerylib/skitter/dist/jquery.skitter.min.js</script>
             </action>
 
             <action method="addItem" ifconfig="jquerylib/plugins/skitter">
                 <type>js_css</type>
-                <name>jquerylib/skitter/css/skitter.styles.min.css</name>
+                <name>jquerylib/skitter/dist/skitter.css</name>
             </action>
 
             <action method="addJs" ifconfig="jquerylib/plugins/validation">
@@ -148,6 +148,14 @@
 
             <action method="addJs" ifconfig="jquerylib/plugins/pace">
                 <script>jquerylib/pace/pace.min.js</script>
+            </action>
+
+            <action method="addItem" ifconfig="jquerylib/plugins/select2">
+                <type>js_css</type>
+                <name>jquerylib/select2/select2.min.css</name>
+            </action>
+            <action method="addJs" ifconfig="jquerylib/plugins/select2">
+                <script>jquerylib/select2/select2.full.min.js</script>
             </action>
         </reference>
     </default>
